@@ -1,0 +1,26 @@
+body{
+    padding:0;
+    margin:0;
+}
+li {
+  list-style: none;
+}
+
+table {
+border:1px solid #e7eaed;
+ 
+}
+
+table thead th {
+  padding: 8px 50px;
+  border-right: 1px solid #e7eaed;
+}
+
+table tbody td {
+  border-top: 1px solid #e7eaed;
+  border-right: 1px solid #e7eaed;
+}
+
+table thead th:last-child ,table tbody td:last-child{
+    border-right: none;
+}
